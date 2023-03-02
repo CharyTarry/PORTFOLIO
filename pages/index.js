@@ -171,7 +171,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="basis-1/3 flex-1">
-              <Link href="https://charyblogapp.netlify.app/" target={"_blank"}>
+              <Link href="https://github.com/CharyTarry/BlogApp/" target={"_blank"}>
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
