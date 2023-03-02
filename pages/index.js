@@ -67,21 +67,21 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-500 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and let&apos;s get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full">
               <Link href="https://github.com/CharyTarry" target={"_blank"}>
-                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={git}/>
+                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={git} alt="image"/>
               </Link>
               <Link href="https://www.linkedin.com/in/charity-makhanu-7a306b214/" target={"_blank"}>
-                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={linkedin}/>
+                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={linkedin} alt="image"/>
               </Link>
               <Link href="" target={"_blank"}>
-                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={phone}/>
+                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={phone} alt="image"/>
               </Link>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={chary} layout="fill" objectFit="cover" />
+              <Image src={chary} layout="fill" objectFit="cover" alt="image"/>
             </div>
           </div>
         </section>
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image className="mx-auto" src={design} width={100} height={100} />
+              <Image className="mx-auto" src={design} width={100} height={100} alt="image"/>
               <h3 className="text-lg font-medium pt-8 pb-2  dark:text-gray-700">
                 Beautiful Designs
               </h3>
@@ -109,12 +109,12 @@ export default function Home() {
               <p className="text-gray-700 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image className="mx-auto" src={code} width={100} height={100} />
+              <Image className="mx-auto" src={code} width={100} height={100} alt="image"/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-700">
                 Code your dream project
               </h3>
               <p className="py-2 dark:text-gray-700">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
@@ -124,7 +124,7 @@ export default function Home() {
               <p className="text-gray-700 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image className="mx-auto" src={consulting} width={100} height={100}/>
+              <Image className="mx-auto" src={consulting} width={100} height={100} alt="image"/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-700">Consulting</h3>
               <p className="py-2 dark:text-gray-700">
                 Are you interested in feedback for your current project? I can
@@ -154,6 +154,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web1}
+                    alt="image"
                   />              
               </Link>
             </div>
@@ -165,6 +166,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web2}
+                    alt="image"
                   />              
               </Link>
             </div>
@@ -176,6 +178,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web3}
+                  alt="image"
                 />              
                 </Link>
             </div>
