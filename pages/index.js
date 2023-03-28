@@ -51,7 +51,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-indigo-400 text- to-purple-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="/cv" target={"_blank"}
                 >
                   Resume
                 </a>
@@ -60,7 +60,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              CHARY TARRY
+              CHARITY MAKHANU
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Developer and designer.
@@ -76,8 +76,8 @@ export default function Home() {
               <Link href="https://www.linkedin.com/in/charity-makhanu-7a306b214/" target={"_blank"}>
                 <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={linkedin} alt="image"/>
               </Link>
-              <Link href="" target={"_blank"}>
-                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={phone} alt="image"/>
+              <Link href="">
+                <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={phone} alt="image" title="+254 704 291 623"/>
               </Link>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
@@ -158,6 +158,31 @@ export default function Home() {
                   />              
               </Link>
             </div>
+            <div className="basis-1/3 flex-1 ">
+              <Link href="https://restaurant-gerritch.netlify.app/" target={"_blank"}>
+                <Image
+                    className="rounded-lg object-cover"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                    src={web4}
+                    alt="image"
+                  />              
+              </Link>
+            </div>
+            <div className="basis-1/3 flex-1 ">
+              <Link href="https://decora-homedecor.netlify.app/" target={"_blank"}>
+                <Image
+                    className="rounded-lg object-cover"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                    src={web5}
+                    alt="image"
+                  />              
+              </Link>
+            </div>
+            
             <div className="basis-1/3 flex-1">
               <Link href="https://github.com/CharyTarry/GarbageSystem" target={"_blank"}>
                 <Image
@@ -186,7 +211,7 @@ export default function Home() {
         </section>
         <footer className="flex justify-center">
           <div>
-            <p>Call me : +254 704291623</p>
+            <p className="text-lg text-teal-600">Call me : +254 704 291 623</p>
             <p className="text-sm">@2023 Developer</p>
           </div>
         </footer>
