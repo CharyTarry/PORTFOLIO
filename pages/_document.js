@@ -18,7 +18,9 @@ export default function Document() {
           src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"
           integrity="sha512-9MhPULpFt0Sl0zg5r5rLbH2J0tMCgj+c0oW9XyAY+JJ2HdOcW/8vKeJgZ+YpZtkHIT4W8XAJ1Nl7rkphFSc6zw=="
           crossOrigin="anonymous"
+          defer
         ></script>
+
       </Head>
       <body className="font-poppins">
         <Main />
