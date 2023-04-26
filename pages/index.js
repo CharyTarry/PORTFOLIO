@@ -72,8 +72,8 @@ export default function Home() {
                 <Image className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 rounded-full w-10 h-15 hover:" src={phone} alt="image" title="+254 704 291 623"/>
               </Link>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={chary} layout="fill" objectFit="cover" alt="image"/>
+            <div className="flex flex-col justify-center items-center bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image src={chary} layout="fill" objectFit="cover" objectPosition="center" alt="image"/>
             </div>
           </div>
         </section>
@@ -98,7 +98,6 @@ export default function Home() {
               <p className="text-gray-700 py-1">Figma</p>
               <p className="text-gray-700 py-1">Google Fonts</p>
               <p className="text-gray-700 py-1">Unsplash</p>
-              
               <p className="text-gray-700 py-1">Canva</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
