@@ -42,12 +42,7 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl">CharyTarry</h1>
             <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
-              </li>
+             
               <li>
                 <Link className="bg-gradient-to-r from-indigo-400 text- to-purple-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="/cv" target={"_blank"}>  Resume
@@ -82,7 +77,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section id="services">
           <div>
             <h3 className="text-3xl py-2 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-500 dark:text-gray-200">
@@ -100,10 +95,11 @@ export default function Home() {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-700 py-1">Photoshop</p>
-              <p className="text-gray-700 py-1">Illustrator</p>
               <p className="text-gray-700 py-1">Figma</p>
-              <p className="text-gray-700 py-1">Indesign</p>
+              <p className="text-gray-700 py-1">Google Fonts</p>
+              <p className="text-gray-700 py-1">Unsplash</p>
+              
+              <p className="text-gray-700 py-1">Canva</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image className="mx-auto" src={code} width={100} height={100} alt="image"/>
@@ -114,11 +110,7 @@ export default function Home() {
                 Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-700 py-1">Photoshop</p>
-              <p className="text-gray-700 py-1">Illustrator</p>
-              <p className="text-gray-700 py-1">Figma</p>
-              <p className="text-gray-700 py-1">Indesign</p>
+              
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image className="mx-auto" src={consulting} width={100} height={100} alt="image"/>
@@ -127,17 +119,13 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-700 py-1">Photoshop</p>
-              <p className="text-gray-700 py-1">Illustrator</p>
-              <p className="text-gray-700 py-1">Figma</p>
-              <p className="text-gray-700 py-1">Indesign</p>
+              
             </div>
           </div>
         </section>
-        <section className="py-10">
+        <section className="py-10" id="projects">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Work Samples</h3>
             <p className="text-md py-2 leading-8 text-gray-500 dark:text-gray-200">
             My portfolio demonstrates my expertise in designing and developing visually appealing and functional websites for both business and consumer use. With experience working remotely for agencies and consulting for startups, I prioritize creating a user-centric approach to design and development. I can help you establish a professional and effective online presence that reflects your brand and engages your audience.
             </p>
@@ -206,13 +194,35 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <footer className="flex justify-center">
-          <div>
-            <p className="text-lg text-teal-600">Call me : +254 704 291 623</p>
-            <p className="text-sm">@2023 Developer</p>
+        <footer className="bg-gray-800 py-8">
+          <div className="container mx-auto flex flex-wrap justify-center">
+            <div className="w-full lg:w-1/3 px-4">
+              <h3 className="text-lg font-semibold text-gray-100 mb-4">Contact Me</h3>
+              <p className="text-teal-600 text-lg mb-4 font-bold">Phone: +254 704 291 623</p>
+            </div>
+            <div className="w-full lg:w-1/3 px-4">
+              <h3 className="text-lg font-semibold text-gray-100 mb-4">Links</h3>
+              <ul className="list-none">
+                <li><a href="#" className="text-gray-400 hover:text-teal-600  ">Home</a></li>
+                <li><a href="#projects" className="text-gray-400 hover:text-teal-600">Projects</a></li>
+                <li><a href="#services" className="text-gray-400 hover:text-teal-600">About Me</a></li>
+              </ul>
+              <br/>
+            </div>
+            <div className="w-full lg:w-1/3 px-4">
+              <h3 className="text-lg font-semibold text-gray-100 mb-4">Copyright</h3>
+              <p className="text-sm text-gray-400">@2023 Developer</p>
+            </div>
           </div>
         </footer>
+
       </main>
     </div>
+     /*<li>
+                <BsFillMoonStarsFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className=" cursor-pointer text-2xl"
+                />
+       </li>*/
   );
 }
